@@ -4,6 +4,6 @@ function updateObjectWithKeyAndValue(object, key, value) {
   return obj
 }
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-obj.assign({}, {prop2: 2})
-return obj
+object.assign({}, {prop2: 2})
+return object
 }
